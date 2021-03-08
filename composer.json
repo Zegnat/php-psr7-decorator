@@ -1,0 +1,15 @@
+{
+    "name": "zegnat/psr7-decorator",
+    "description": "Collection of Traits and Abstract Classes to get started decorating PSR-7 Value Objects.",
+    "type": "library",
+    "license": "0BSD",
+    "authors": [
+        {
+            "name": "Martijn van der Ven",
+            "email": "martijn@vanderven.se"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    }
+}
