@@ -7,7 +7,8 @@ namespace Zegnat\Psr7Decorator\Traits;
 trait ServerRequestTrait {
     use RequestTrait;
 
-    protected \Psr\Http\Message\ServerRequestInterface $psr7;
+    // protected \Psr\Http\Message\ServerRequestInterface $psr7;
+    protected $psr7;
 
     public function getServerParams() {
         return $this->psr7->getServerParams();

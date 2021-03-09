@@ -7,7 +7,8 @@ namespace Zegnat\Psr7Decorator\Traits;
 trait ResponseTrait {
     use MessageTrait;
 
-    protected \Psr\Http\Message\ResponseInterface $psr7;
+    // protected \Psr\Http\Message\ResponseInterface $psr7;
+    protected $psr7;
 
     public function getStatusCode() {
         return $this->psr7->getStatusCode();

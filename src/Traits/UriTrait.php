@@ -5,7 +5,8 @@ declare(strict_types=1);
 namespace Zegnat\Psr7Decorator\Traits;
 
 trait UriTrait {
-    protected \Psr\Http\Message\UriInterface $psr7;
+    // protected \Psr\Http\Message\UriInterface $psr7;
+    protected $psr7;
 
     public function getScheme() {
         return $this->psr7->getScheme();

@@ -9,7 +9,8 @@ use Psr\Http\Message\UriInterface;
 trait RequestTrait {
     use MessageTrait;
 
-    protected \Psr\Http\Message\RequestInterface $psr7;
+    // protected \Psr\Http\Message\RequestInterface $psr7;
+    protected $psr7;
 
     public function getRequestTarget() {
         return $this->psr7->getRequestTarget();

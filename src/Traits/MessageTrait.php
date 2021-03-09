@@ -7,7 +7,8 @@ namespace Zegnat\Psr7Decorator\Traits;
 use Psr\Http\Message\StreamInterface;
 
 trait MessageTrait {
-    protected \Psr\Http\Message\MessageInterface $psr7;
+    // protected \Psr\Http\Message\MessageInterface $psr7;
+    protected $psr7;
 
     public function getProtocolVersion() {
         return $this->psr7->getProtocolVersion();

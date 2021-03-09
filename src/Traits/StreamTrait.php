@@ -5,7 +5,8 @@ declare(strict_types=1);
 namespace Zegnat\Psr7Decorator\Traits;
 
 trait StreamTrait {
-    protected \Psr\Http\Message\StreamInterface $psr7;
+    // protected \Psr\Http\Message\StreamInterface $psr7;
+    protected $psr7;
 
     public function __toString() {
         return $this->psr7->__toString();

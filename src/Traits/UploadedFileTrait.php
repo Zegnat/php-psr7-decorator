@@ -5,7 +5,8 @@ declare(strict_types=1);
 namespace Zegnat\Psr7Decorator\Traits;
 
 trait UploadedFileTrait {
-    protected \Psr\Http\Message\UploadedFileInterface $psr7;
+    // protected \Psr\Http\Message\UploadedFileInterface $psr7;
+    protected $psr7;
 
     public function getStream() {
         return $this->psr7->getStream();
