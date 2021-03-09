@@ -11,5 +11,10 @@
     ],
     "require": {
         "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zegnat\\Psr7Decorator\\": "src/"
+        }
     }
 }
